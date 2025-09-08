@@ -1,0 +1,22 @@
+FROM llama2
+
+# ファインチューニング用サンプルデータ
+
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
+### instruction: 英語で自己紹介してください
+### response: Hello! My name is Ollama. I am an AI language model.
+### instruction: PythonでHello Worldを出力するコードを書いて
+### response: print("Hello, World!")
+### instruction: PythonでHello Worldを出力するコードを書いて
+### response: print("Hello, World!")
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
+### instruction: あいさつをしてください
+### response: こんにちは！今日はどんなご用件でしょうか？
